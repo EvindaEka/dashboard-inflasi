@@ -290,6 +290,12 @@ st.markdown("""
         border-color: #1e3c72 !important;
         box-shadow: 0 0 0 2px rgba(30, 60, 114, 0.2) !important;
     }
+
+    /* Fix sidebar toggle visibility */
+    [data-testid="stHeader"] svg {
+        color: #1e3c72 !important;
+    }
+
 </style>
 """, unsafe_allow_html=True)
 
