@@ -369,8 +369,8 @@ with st.sidebar:
     st.markdown("### Informasi Data")
     st.info("""
     Sumber Data:
-    - Bank Indonesia
     - Badan Pusat Statistik
+    - FRED (Federal Reserve Economic Data)
     
     Periode Data: 2010-2024
     Update Terakhir: """ + df['date'].max().strftime('%d %B %Y'))
@@ -1114,8 +1114,9 @@ with tab4:
 st.markdown("---")
 st.markdown(
     "<div style='text-align: center; color: #7f8c8d; font-size: 0.85rem; padding: 1.5rem;'>"
-    " <b>Dashboard Inflasi Indonesia</b> | Sumber Data: Bank Indonesia & BPS | "
+    "Sumber Data: BPS & FRED | "
     "© 2024 Dashboard Inflasi Indonesia"
     "</div>",
     unsafe_allow_html=True
+
 )
