@@ -245,7 +245,6 @@ st.markdown("""
     /* Hide Streamlit default elements */
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
-    header {visibility: hidden;}
     
     /* Custom metric styling */
     [data-testid="stMetricValue"] {
@@ -1120,3 +1119,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
