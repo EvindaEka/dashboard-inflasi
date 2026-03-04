@@ -165,7 +165,7 @@ Aplikasi dapat diakses melalui:
 
 ## 📁 Struktur Proyek
 ```
-inflation-dashboard/
+Dashboard-Inflasi/
 │
 ├── app.py
 ├── ridge_model.pkl
